@@ -11,17 +11,17 @@ const abouts = [
 		imgUrl: images.about01,
 	},
 	{
-		title: "Web Design",
+		title: "Frontend Development",
 		description: "I'm a good developer!",
 		imgUrl: images.about02,
 	},
 	{
-		title: "UI/UX",
+		title: "Backend Development",
 		description: "I'm a good developer!",
 		imgUrl: images.about03,
 	},
 	{
-		title: "Web Animations",
+		title: "MERN Stack",
 		description: "I'm a good developer!",
 		imgUrl: images.about04,
 	},
@@ -32,10 +32,10 @@ const About = () => {
 		<>
 			<h2 className="head-text">
 				I Know That
-				<span>Good Design</span>
+				<span> Good Development</span>
 				<br />
 				Means
-				<span>Good Work</span>
+				<span> Good Work</span>
 			</h2>
 			<div className="app__profiles">
 				{abouts.map((about, index) => (
